@@ -1,0 +1,6 @@
+.ModeSelectButton button {
+  min-width: 75px; }
+
+.ModeSelectButton button.active {
+  background-color: #212121;
+  color: white; }

@@ -1,0 +1,28 @@
+.HeaderView {
+  background-color: #212121;
+  opacity: .98; }
+  .HeaderView .navbar {
+    width: 100%; }
+  .HeaderView a.navbar-brand {
+    color: #FABF0B;
+    transition: .25s;
+    letter-spacing: 1px; }
+  .HeaderView .nav-item {
+    margin-top: auto;
+    margin-bottom: auto; }
+  .HeaderView .nav-link {
+    padding: 0px;
+    margin-right: auto; }
+    .HeaderView .nav-link span {
+      color: #FABF0B;
+      transition: .25s; }
+    .HeaderView .nav-link span:hover {
+      color: #FFF; }
+  .HeaderView label {
+    min-width: 110px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    letter-spacing: 1px; }
+  .HeaderView button {
+    cursor: pointer;
+    letter-spacing: 1px; }

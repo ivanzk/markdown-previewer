@@ -1,0 +1,47 @@
+@import './_colors';
+
+.HeaderView {
+	background-color: $bgColorHeader;
+	opacity: .98;
+	
+	.navbar {
+		width: 100%;
+	}
+	
+	a.navbar-brand {
+		color: $bsColorDanger;
+		transition: .25s;
+		letter-spacing: 1px;
+	}
+	
+	.nav-item {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	
+	.nav-link {
+		padding: 0px;
+		margin-right: auto;
+		
+		span {
+			color: $bsColorDanger;
+			transition: .25s;
+		}
+		span:hover {
+			color: #FFF;
+		}
+	}
+	
+	label {
+		min-width: 110px;
+		margin-bottom: 0px;
+		cursor: pointer;
+		letter-spacing: 1px;
+	}
+	
+	button {
+		cursor: pointer;
+		letter-spacing: 1px;
+	}
+
+}

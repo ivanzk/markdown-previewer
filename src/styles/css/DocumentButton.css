@@ -1,0 +1,31 @@
+.DocumentButton button.dropdown-toggle {
+  width: 225px; }
+
+.DocumentButton .dropdown-menu {
+  margin-top: 16px;
+  background-color: #212121;
+  border-color: #212121;
+  border-radius: 0px 0px 5px 5px; }
+
+.DocumentButton button.dropdown-item {
+  margin-bottom: 16px;
+  width: 225px;
+  padding: 0px;
+  background-color: #212121;
+  text-align: center;
+  color: #FABF0B;
+  transition: .25s; }
+
+.DocumentButton button.dropdown-item:focus {
+  outline: none; }
+
+.DocumentButton button.dropdown-item:hover {
+  color: #FFFFFF; }
+
+.DocumentButton .dropdown-divider {
+  margin: 16px 20px;
+  border-top: 1px solid white;
+  opacity: .1; }
+
+.DocumentButton label {
+  margin-bottom: 16px; }

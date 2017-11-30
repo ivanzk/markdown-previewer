@@ -1,0 +1,43 @@
+@import './_colors';
+
+.DocumentButton {
+	
+	button.dropdown-toggle {
+		width: 225px;
+	}
+	
+	.dropdown-menu {
+		margin-top: 16px;
+		background-color: $bgColorHeader;
+		border-color: $bgColorHeader;
+		border-radius: 0px 0px 5px 5px;
+	}
+	
+	button.dropdown-item {
+		margin-bottom: 16px;
+		width: 225px;
+		padding: 0px;
+		background-color: $bgColorHeader;
+		text-align: center;
+		color: $bsColorDanger;
+		transition: .25s;
+	}
+	button.dropdown-item:focus {
+		outline: none;
+	}
+	
+	button.dropdown-item:hover {
+		color: $navHoverColor;
+	}
+	
+	.dropdown-divider {
+		margin: 16px 20px;
+		border-top: 1px solid white;
+		opacity: .1;
+	}
+	
+	label {
+		margin-bottom: 16px;
+	}
+	
+}

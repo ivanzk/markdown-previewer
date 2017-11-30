@@ -1,0 +1,6 @@
+body {
+  background-color: #1976D2 !important;
+  text-align: center; }
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  box-shadow: none !important; }

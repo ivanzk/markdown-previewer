@@ -1,0 +1,27 @@
+@import './_colors';
+
+.FileNameInput {
+	text-align: center;
+	
+	input {
+		background-color: $bgColorHeader;
+		color: $bsColorDanger;
+		border: none;
+		text-align: center;
+		letter-spacing: 1px;
+		cursor: pointer;
+		transition: .25s;
+	}
+	
+	input:focus {
+		outline: none;
+		color: $navHoverColor;
+		cursor: text;
+	}
+	
+	input:hover {
+		color: $navHoverColor;
+		cursor: text;
+	}
+	
+}

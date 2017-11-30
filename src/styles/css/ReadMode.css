@@ -1,0 +1,8 @@
+.ReadMode div {
+  margin-left: auto;
+  margin-right: auto; }
+
+@media only screen and (max-width: 767px) {
+  .ReadMode .col {
+    padding-left: 4px;
+    padding-right: 4px; } }

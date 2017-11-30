@@ -1,0 +1,11 @@
+.FileReader label {
+  width: 100%;
+  color: #FABF0B;
+  text-align: center;
+  transition: .25s; }
+
+.FileReader label:hover {
+  color: #FFFFFF; }
+
+.FileReader input[type="file"] {
+  display: none; }

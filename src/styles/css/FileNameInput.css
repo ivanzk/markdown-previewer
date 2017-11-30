@@ -1,0 +1,17 @@
+.FileNameInput {
+  text-align: center; }
+  .FileNameInput input {
+    background-color: #212121;
+    color: #FABF0B;
+    border: none;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .25s; }
+  .FileNameInput input:focus {
+    outline: none;
+    color: #FFFFFF;
+    cursor: text; }
+  .FileNameInput input:hover {
+    color: #FFFFFF;
+    cursor: text; }

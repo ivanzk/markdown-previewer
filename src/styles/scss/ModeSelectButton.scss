@@ -1,0 +1,14 @@
+@import './_colors';
+
+.ModeSelectButton {
+	
+	button {
+		min-width: 75px;
+	}
+	
+	button.active {
+		background-color: $bgColorHeader;  
+		color: white;
+	}
+	
+}

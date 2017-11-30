@@ -1,0 +1,19 @@
+@import './_colors.scss';
+
+.FileReader {
+	
+	label {
+		width: 100%;
+		color: $bsColorDanger;
+		text-align: center;
+		transition: .25s;
+	}
+	label:hover {
+		color: $navHoverColor;
+	}
+	
+	input[type="file"] {
+		display: none;
+	}
+	
+}

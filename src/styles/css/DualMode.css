@@ -1,0 +1,12 @@
+@media only screen and (max-width: 767px) {
+  .DualMode .col-12 {
+    padding-left: 4px;
+    padding-right: 4px; } }
+
+@media only screen and (min-width: 992px) {
+  .DualMode .col-12 {
+    text-align: right; }
+  .DualMode div.MarkedText {
+    margin-left: 0; }
+  .DualMode div.TextArea {
+    margin-right: 0; } }

@@ -1,0 +1,10 @@
+@import './_colors';
+
+body {
+	background-color: $bgColorBody !important;
+	text-align: center;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	box-shadow: none !important;
+}
